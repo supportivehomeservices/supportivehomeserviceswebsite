@@ -14,6 +14,8 @@ Deployment can only be done with the permission of the original copyright holder
 
 ## Copyright
 
+The code was written by [Joseph Balsavich](https://github.com/jbalsavich).
+
 All Images and Text Found on this Site are Owned by [Supportive Home Services](http://supportivehomeserviceswi.com/)
 The Map is an embedded version of our area map on [Google Maps](https://maps.google.com), and is owned by [Google](https://google.com)
 
