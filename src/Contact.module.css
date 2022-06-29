@@ -1,0 +1,13 @@
+.contact{
+    display: grid;
+    text-align: center;
+    background-color: wheat;
+    gap: 2rem;
+    padding: 1rem;
+    margin: 
+    2rem /*top*/
+    2rem /*right*/
+    5rem /*bottom*/
+    2rem;/*left*/
+    border-radius: 1rem;
+}

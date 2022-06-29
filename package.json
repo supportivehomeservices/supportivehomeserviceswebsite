@@ -1,0 +1,20 @@
+{
+  "name": "vite-template-solid",
+  "version": "2.0.0",
+  "description": "An Updated Version of the 2011 site using new technologies and to allow for this to be a new coding template for students to start using solid-js. HOWEVER, all pictures and names used are either licensed or owned by the maker of this website and cannot be copied into another project without going to the original copyright holder.",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite --host",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "license": "LGPL",
+  "devDependencies": {
+    "vite": "^2.8.6",
+    "vite-plugin-solid": "^2.2.6"
+  },
+  "dependencies": {
+    "solid-app-router": "^0.3.3",
+    "solid-js": "^1.3.13"
+  }
+}

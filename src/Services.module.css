@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500&display=swap');
+:root{
+  --primary: #2dd09c;
+  --secondary: #49BDBF;
+  --tertiary: #F5F5F5;
+  --gradient:  linear-gradient(
+            to right, #84A78D, #2F4858
+             );
+  --gradient-secondary:  linear-gradient(
+            to right, 
+            #F5F5F5, 
+            #FFEDFF,
+            #FFE2F1, 
+            #FFDBC6,
+            #FFE492, 
+            #F9F871
+             );
+  --gradient-tertiary:  linear-gradient(
+            to right, 
+            #474554,
+            #ACA7CB,
+            #FF00ED, 
+            #FF00D9
+             );
+}
+.Services{
+    
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+    height: auto;
+    background-color: #f5f5f5;
+    font-family: 'Macondo', sans-serif;
+    
+    align-items: center;
+    
+}
+.spacer{
+    height: 1rem;
+}
+.servicesTitle{
+    font-size: 12vh;
+    text-align: center;
+    font-weight: bold;
+    color: var(--primary);
+    margin: 0;
+    padding: 0;
+    margin-top: 1rem;
+}
+.serviceList{
+    display: grid;
+    margin: 0;
+    padding: 0;
+}
+.serviceItem{
+    display: grid;
+    text-align: center;
+    background-color: wheat;
+    gap: 2rem;
+    padding: 1rem;
+    margin: 
+    1rem /*top*/
+    2rem /*right*/
+    1rem /*bottom*/
+    2rem;/*left*/
+    border-radius: 1rem;
+    font-size: larger;
+}
+
+    
