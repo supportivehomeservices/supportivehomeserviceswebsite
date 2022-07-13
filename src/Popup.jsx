@@ -1,14 +1,16 @@
 
-import { Show } from 'solid-js';
+import { mergeProps, Show } from 'solid-js';
+import App from './App';
 import styles from './Popup.module.css';
 
 function Area(){
   
   return (
     
-    <div className={styles.Popup}>
+    <div id="Popup" className={styles.Popup}>
+    
       <div className={styles.box}>
-        <button className={styles.closeButton}>
+        <button className={styles.closeButton} >
             Close
         </button>
         <h1>Mission Statement</h1>

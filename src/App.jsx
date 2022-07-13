@@ -11,11 +11,14 @@ import { createSignal } from 'solid-js';
 
 function App() {
   const [loggedIn, setLoggedIn] = createSignal(false);
-  const toggle = () => setLoggedIn(!loggedIn())
+  const toggle = () => setLoggedIn(!loggedIn()) 
   return (
     <div className={styles.App}>
       <Show when={loggedIn()}>
-        <Popup/>
+        <div onclick={toggle}>
+        <Popup />
+        </div>
+        
       </Show>
       <div id="wrapper" className={styles.wrapper}>
       <nav className={styles.nav}>
